@@ -266,10 +266,10 @@ def generate_num(p):
 
     if operation == "Multiplying":
 
-        test_num1 = random.randint(1,20)
-        test_num2 = random.randint(1,20)
+        test_num1 = random.randint(2,20)
+        test_num2 = random.randint(2,20)
         while test_num2 == test_num1:
-            test_num2=random.randint(1,20)
+            test_num2=random.randint(2,20)
 
 
         if p == 0:
